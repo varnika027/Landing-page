@@ -1,0 +1,82 @@
+*{
+    margin:0;
+    padding:0;
+  }
+  
+  body{
+    background-image:url("image.jpg");
+    background-size:cover;
+    background-position:center;
+    margin:0;
+    font-family: "Helvetica Neue";
+    font-size:16px;
+    color:#926239;
+    line-height:1.6;
+  }
+  .navbar{
+    background: #926239; font-family: "Helvetica Neue"; padding-right: 15px;padding-left: 15px;
+  }
+  .navdiv{
+    display: flex; align-items: center; justify-content: space-between;
+  }
+  .logo a{
+    font-size: 32px; font-weight: 100; color: #fff;
+  }
+  li{
+    list-style: none; display: inline-block;
+  }
+  li a{
+    color: #fff; font-size: 16px;  margin-right: 25px;
+  }
+  button{
+    background-color: #fff; margin-left: 10px; border-radius: 10px; padding: 10px; width: 90px;
+  }
+  button a{
+    color: #926239; font-weight: bold; font-size: 16px;
+  }
+
+  #showcase{
+    height:100vh; 
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    padding:0 20px;
+  }
+  
+  #showcase h2{
+    font-size: 30px;
+    line-height:1.2;
+  }
+  
+  #showcase p{
+    font-size:20px;
+  }
+  
+  #showcase .button{
+    font-size:18px;
+    text-decoration:none;
+    color:#926239;
+    border:#926239 1px solid;
+    padding:10px 20px;
+    border-radius:10px;
+    margin-top:20px;
+  }
+  
+  #showcase .button:hover{
+    background:#926239;
+    color:#fff;
+  }
+  
+  #section-a{
+    padding:20px;
+    background:#926239;
+    color:#fff;
+    text-align:center;
+  }
+
+  footer{
+    text-align: center;
+    color: rgb(11, 30, 11);
+  }
